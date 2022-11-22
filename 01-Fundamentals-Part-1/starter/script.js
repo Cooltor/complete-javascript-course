@@ -76,7 +76,7 @@ console.log('String with \n\
 multiple\n\
 line');
 
-*/
+
 
 const age = 15
 
@@ -87,4 +87,18 @@ if (age >= 18) {
     const yearsLeft = 18 - age
     console.log(`Sarah is too young, wait another ${yearsLeft} years`)
 }
+
+*/
+
+// Type conversion
+const inputYear = '1991'
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18)
+
+
+console.log(Number('Jonas'));
+
+console.log(String(23), 23);
+
+// Type coercion
 

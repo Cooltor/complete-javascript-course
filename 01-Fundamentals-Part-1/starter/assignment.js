@@ -4,7 +4,7 @@ let continent = "Europe";
 let population = 64000000;
 
 console.log(country, continent, population);
-*/
+
 
 
 //Challenge #1
@@ -32,3 +32,5 @@ if (markHigherBMI = true) {
 } else {
     console.log(`John's BMI is higher than Mark's BMI`);
 }
+
+*/
