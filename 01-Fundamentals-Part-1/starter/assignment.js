@@ -33,4 +33,34 @@ if (markHigherBMI = true) {
     console.log(`John's BMI is higher than Mark's BMI`);
 }
 
+
+
+let dolphinsAverage = (120 + 108 + 89) / 3
+let koalasAverage = (120 + 108 + 89) / 3
+
+console.log(dolphinsAverage);
+
+
+if (dolphinsAverage > koalasAverage && dolphinsAverage >= 100) {
+    console.log(`Dolphins win!`);
+}
+else if (dolphinsAverage < koalasAverage && koalasAverage >= 100)
+    console.log('Koalas win!');
+else if ((dolphinsAverage === koalasAverage) && dolphinsAverage >= 100) {
+    console.log('Its a draw');
+}
+else {
+    console.log("No winner");
+}
+
 */
+
+const bill = 430
+
+const tip = (bill >= 50 && bill <= 300) ? 0.15 * bill : 0.2 * bill
+
+console.log(tip)
+
+const value = bill + tip
+
+console.log("The bill was " + bill + ", the tip was " + tip + ", and the total value " + value + ".")
