@@ -3,7 +3,7 @@
 
 
 
-
+/*
 function calcAverage(sc1, sc2, sc3) {
 
     const avg = (sc1 + sc2 + sc3) / 3
@@ -39,3 +39,6 @@ function checkWinner(dolphinsAvg, koalasAvg) {
 }
 
 checkWinner(dolphinsScore, koalasScore)
+
+*/
+
