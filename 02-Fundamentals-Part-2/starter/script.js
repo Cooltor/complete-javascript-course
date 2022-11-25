@@ -121,8 +121,107 @@ const yearsUntilRetirement = function (birthYear, firstname) {
 console.log(yearsUntilRetirement(1950, 'Mike'))
 console.log(yearsUntilRetirement(1986, 'Romain'))
 
+
+
+
+
+const friend1 = 'Michael'
+const friend2 = 'Steven'
+const friend3 = 'Peter'
+
+const friends = ['Michael', 'Steven', 'Peter']
+console.log(friends);
+
+const years = new Array(1991, 1986, 2012, 2022)
+console.log(years);
+
+console.log(friends[0]);
+
+console.log(friends.length);
+
+console.log(friends[friends.length - 1]);
+
+friends[2] = 'Jay'
+console.log(friends);
+
+
+
+const Romain = {
+    firstName: 'Romain',
+    lastNmae: 'Dubus',
+    Age: 2022 - 1986,
+    job: 'developper web',
+    friends: ['Alex', 'Benji', 'Cathy', 'Thomas']
+}
+
+const interestedIn = prompt('What do you know about Romain? Choose between firstName, lastName, age, job, and friends')
+
+console.log(Romain[interestedIn]);
+
+
+if (Romain[interestedIn]) {
+
+    console.log(Romain[interestedIn]);
+
+} else {
+
+    console.log('Wrong request! ');
+
+}
+
+Romain.location = 'France'
+
+console.log(Romain.location);
+
+console.log(`${Romain.firstName} has ${Romain.friends.length} friends, and his best friends is ${Romain.friends[0]}`);
+
+
+
+const romain = {
+    firstName: 'Romain',
+    lastNmae: 'Dubus',
+    birthYear: 1986,
+    job: 'developper web',
+    friends: ['Alex', 'Benji', 'Cathy', 'Thomas'],
+    hasDriverLicense: true,
+
+    //calcAge: function (borthYear) {
+
+    //    return 2037 - 1986
+
+    //}
+
+    //calcAge: function () {
+
+    //    return 2037 - this.birthYear
+
+    //}
+
+    calcAge: function () {
+
+        this.age = 2037 - this.birthYear
+
+        return this.age
+
+    },
+
+    getSummary: function () {
+
+        return `${this.firstName} is a ${this.calcAge()}-year old ${romain.job}, and he has ${this.hasDriverLicense ? 'a' : 'no'} driver's license.`
+    }
+
+}
+
+
+
+console.log(romain.calcAge(1986))
+
+console.log(romain.age);  // GOOD IDEA TO NOT REPEAT YOURSELF
+
+
+console.log(romain.getSummary());
+
+
 */
-
-
 
 

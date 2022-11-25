@@ -40,5 +40,74 @@ function checkWinner(dolphinsAvg, koalasAvg) {
 
 checkWinner(dolphinsScore, koalasScore)
 
+
+
+function calcTip(bill) {
+
+    if (bill >= 50 && bill <= 300) {
+
+        const tip = bill * 0.15
+        console.log(`The tip is ${tip}`)
+        return tip
+
+    } else {
+
+        const tip = bill * 0.2
+        console.log(`The tip is ${tip}`)
+        return tip
+    }
+
+}
+
+const bills = [125, 555, 44]
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip([2])]
+
+console.log(tips);
+
+const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]]
+
+console.log(total);
+
 */
 
+const mark = {
+
+    fullName: 'Mark Miller',
+    mass: '78',
+    height: '1.69',
+
+    calcBMI: function () {
+
+        this.bmi = this.mass / this.height ** 2
+        return this.bmi
+    }
+}
+
+const john = {
+
+    fullName: 'John Smith',
+    mass: '92',
+    height: '1.95',
+
+    calcBMI: function () {
+
+        this.bmi = this.mass / this.height ** 2
+        return this.bmi
+    }
+}
+
+mark.calcBMI()
+console.log(mark.bmi)
+
+john.calcBMI()
+console.log(john.bmi);
+
+if (mark.bmi > john.bmi) {
+
+    console.log(`${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s (${john.bmi})`)
+
+} else if (mark.bmi < john.bmi) {
+
+    console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi})`)
+
+}
