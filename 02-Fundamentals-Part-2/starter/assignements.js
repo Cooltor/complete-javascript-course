@@ -68,7 +68,7 @@ const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]]
 
 console.log(total);
 
-*/
+
 
 const mark = {
 
@@ -111,3 +111,41 @@ if (mark.bmi > john.bmi) {
     console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi})`)
 
 }
+
+*/
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52]
+
+const tips = []
+const totals = []
+
+
+
+for (let i = 0; i < bills.length; i++) {
+
+    if (bills[i] >= 50 && bills[i] <= 300) {
+
+        const tip = bills[i] * 0.15
+        const total = bills[i] + tip
+
+        tips.push(tip)
+        totals.push(total)
+
+
+    } else {
+
+        const tip = bills[i] * 0.2
+        const total = bills[i] + tip
+
+        tips.push(tip)
+        totals.push(total)
+
+    }
+
+}
+
+
+console.log(tips)
+console.log(totals);
+
+

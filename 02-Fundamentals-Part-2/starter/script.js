@@ -222,6 +222,38 @@ console.log(romain.age);  // GOOD IDEA TO NOT REPEAT YOURSELF
 console.log(romain.getSummary());
 
 
-*/
 
+
+
+const years = [1986, 1987, 2018, 2021]
+const ages = []
+
+for (let i = 0; i < years.length; i++) {
+
+    ages.push(2022 - years[i])
+
+}
+
+console.log(ages);
+
+
+let rep = 1
+while (rep <= 10) {
+
+    rep++
+
+}
+
+
+let dice = Math.trunc(Math.random() * 6) + 1
+
+while (dice !== 6) {
+
+    console.log(`You rolled a ${dice}`);
+    dice = Math.trunc(Math.random() * 6) + 1
+    if (dice === 6) console.log('Loop is about to end...');
+
+}
+
+*/
 
