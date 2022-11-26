@@ -112,7 +112,7 @@ if (mark.bmi > john.bmi) {
 
 }
 
-*/
+
 
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52]
 
@@ -149,3 +149,4 @@ console.log(tips)
 console.log(totals);
 
 
+*/
