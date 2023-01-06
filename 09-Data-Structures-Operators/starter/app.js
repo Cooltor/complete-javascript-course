@@ -1,5 +1,5 @@
 'use strict';
-/*
+
 const game = {
   team1: 'Bayern Munich',
   team2: 'Borrussia Dortmund',
@@ -41,6 +41,9 @@ const game = {
   },
 };
 
+// Coding Challenge #2
+
+/*
 //1
 //const players1 = game.players[0];
 //const players2 = game.players[1];
