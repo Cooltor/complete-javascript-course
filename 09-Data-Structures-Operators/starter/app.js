@@ -55,7 +55,7 @@ const gameEvents = new Map([
   [80, '⚽️ GOAL'],
   [92, '🔶 Yellow card'],
 ]);
-
+/*
 //1
 const gameEventsSet = [...new Set(gameEvents.values())];
 console.log(gameEventsSet);
@@ -82,7 +82,7 @@ for (const [min, ev] of gameEvents) {
   console.log(`${halfTime} ${min}: ${ev}`);
 }
 
-/*
+
 // Coding Challenge #2
 
 // 1
