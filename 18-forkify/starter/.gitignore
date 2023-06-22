@@ -1,0 +1,26 @@
+
+# ignorer node_modules
+node_modules
+# ignorer les fichiers de configuration
+
+# ignorer les fichiers de configuration
+*.env
+*.env.example
+*.log
+*.key
+*.pem
+# ignorer les fichiers de build
+build
+# ignorer les fichiers de cache
+.cache
+# ignorer les fichiers de test
+coverage
+# ignorer les fichiers de documentation
+doc
+# ignorer les fichiers de production
+dist
+# ignorer les fichiers de sauvegarde
+backup
+# ignorer les fichiers de sauvegarde
+.bak
+
