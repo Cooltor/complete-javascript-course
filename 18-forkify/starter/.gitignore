@@ -4,8 +4,6 @@ node_modules
 # ignorer les fichiers de configuration
 *.env 
 
-# ignorer config.js
-js/config.js
 
 # ignorer les fichiers de configuration
 *.env
